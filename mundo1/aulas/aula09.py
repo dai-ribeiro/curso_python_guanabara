@@ -1,0 +1,25 @@
+frase = 'Curso em Video Python'
+lista = frase.split()
+
+print(frase)
+print(frase[4])
+print(frase[3:])
+print(frase[:9])
+print(frase[4:11])
+print(frase[::3])
+print(frase.count('e'))
+print(frase.count('o', 2, 10))
+print(frase.upper().count('O'))
+print(frase.upper())
+print(frase.lower())
+print(frase.title())
+print(frase.capitalize())
+print(len(frase))
+print(frase.replace('Python', 'Android'))
+print(frase.find('Python'))     # retorna a posicao inicial
+print(frase.find('video'))
+print('Curso' in frase)
+print(frase.split())
+print(lista[0])
+print(lista[2][3])      # retorna a letra 3 do elemento 2
+print('-'.join(lista))
