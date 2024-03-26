@@ -2,3 +2,12 @@
 # calcule o valor do seu aumento.
 # Para salários superiores a  R$ 1.250,00, calcule um aumento de 10%.
 # Para os inferiores ou iguais, o aumento é de 15%.
+
+sal = float(input('Digite seu salário: '))
+
+if sal > 1250:
+    novo_sal = sal * 1.1
+else:
+    novo_sal = sal * 1.15
+
+print(f'Quem ganha R${sal:.2f} passa a ganhar R${novo_sal:.2f} agora.')
