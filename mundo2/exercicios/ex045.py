@@ -13,7 +13,10 @@ numero = random.randint(1, 3)
 
 opcao_jogador = int(input('Escolha sua opção: '))
 
-if numero == 1:
+if opcao_jogador not in (1, 2, 3):
+    print('Opção inválida!')
+
+elif numero == 1:
     if opcao_jogador == 1:
         print('Jogue novamente. Ambos escolheram PEDRA.')
     elif opcao_jogador == 2:
