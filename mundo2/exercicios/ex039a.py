@@ -15,6 +15,6 @@ idade = ano_atual - ano_nascimento
 if (idade) == 18:
     print('Está na hora de se alistar!')
 elif (idade) < 18:
-    print(f'Faltam {18 - idade} anos para você se alistar.')
+    print(f'Faltam {18 - idade} anos para você se alistar.', end='\n')
 else:
-    print(f'Já passaram {idade - 18} anos do tempo de se alistar.')
+    print(f'Já passaram {idade - 18} anos do tempo de se alistar.', end='\n')

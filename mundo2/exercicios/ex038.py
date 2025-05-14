@@ -8,8 +8,8 @@ num1 = int(input('Digite o primeiro número: '))
 num2 = int(input('Digite o segundo número: '))
 
 if num1 > num2:
-    print(f'O primeiro número informado ({num1}) é o maior.')
+    print(f'O PRIMEIRO número informado ({num1}) é o maior.')
 elif num2 > num1:
-    print(f'O segundo número informado ({num2}) é o maior.')
+    print(f'O SEGUNDO número informado ({num2}) é o maior.')
 else:
-    print('Os números informados são iguais.')
+    print('Os números informados são IGUAIS.')
